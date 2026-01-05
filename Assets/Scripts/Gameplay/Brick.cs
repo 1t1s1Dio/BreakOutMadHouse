@@ -35,7 +35,7 @@ public class Brick : MonoBehaviour
             GameManager.Instance.RegisterHit();
             GameManager.Instance.AddScore(scoreReward);
         }
-        // יא מניאק
+        // יא מניאק, יותר מניאק
         if (CoinManager.Instance != null)
             CoinManager.Instance.AddCoins(coinReward);
 
