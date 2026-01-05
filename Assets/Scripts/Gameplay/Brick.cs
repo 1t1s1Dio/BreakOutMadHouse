@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+// תאכל זין
 public class Brick : MonoBehaviour
 {
     [Header("Rewards")]
@@ -35,7 +35,7 @@ public class Brick : MonoBehaviour
             GameManager.Instance.RegisterHit();
             GameManager.Instance.AddScore(scoreReward);
         }
-
+        // יא מניאק
         if (CoinManager.Instance != null)
             CoinManager.Instance.AddCoins(coinReward);
 

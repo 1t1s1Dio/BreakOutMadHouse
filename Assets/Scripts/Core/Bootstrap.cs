@@ -7,7 +7,7 @@ public class Bootstrap : MonoBehaviour
 
     private void Awake()
     {
-        // שלא יימחק בין סצנות
+        // שלא יימחק בין סצנות, בר בודק ערנות!
         DontDestroyOnLoad(gameObject);
 
         // אם כבר הופעל פעם – לא לטעון שוב
@@ -20,6 +20,7 @@ public class Bootstrap : MonoBehaviour
 
     private void Start()
     {
+        // שורה חדשה יא מניאק
         SaveSystem.LoadGame();
     }
 }
